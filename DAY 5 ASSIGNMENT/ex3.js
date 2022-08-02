@@ -23,10 +23,12 @@ if(sorted.length %2==0){
 } else{
     console.log(sorted[Math.floor(midAge)]);
 }
-
-console.log(Math.round(sorted.length));//Find the average age(all items divided by number of items)
 console.log(Math.max(...sorted)-Math.min(...sorted));
 
+const num = (sorted.length);//Find the average age(all items divided by number of items)
+const sum=sorted.reduce((partialSum, a) => partialSum + a, 0);
+console.log(sum);
+console.log(sum/num);
 
 // console.log(midAge);
 // console.log(sorted[midAge]);
