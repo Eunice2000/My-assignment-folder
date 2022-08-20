@@ -90,3 +90,26 @@ for(let a=0; a<=100; a++){
 }
 
 //9 Use for loop to iterate from 0 to 100 and print only prime numbers
+
+
+/*11 Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+
+ The sum of all numbers from 0 to 100 is 5050.Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+ */
+ let sumE=0
+ let sumO=0
+ for(let h=0; h<=100; h++){
+     if (h%2==0){
+     sumE+=h;
+     }
+     else{
+         sumO+=h;
+     }
+ }
+ console.log(sumE,sumO);
+
+//The sum of all evens from 0 to 100 is 2550. And the sum of all odds from 0 to 100 is 2500.
+
+
+//13 Develop a small script which generate array of 5 random numbers
+
